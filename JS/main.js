@@ -46,3 +46,33 @@ let randomvaluenames = randomvalue[randomvalueNumber]
 document.querySelector(".game-info .category span").innerHTML = randomName
 
 
+let leteersGuse = document.querySelector(".letters-guess")
+
+let leteersAndSpace = Array.from(randomvaluenames)
+
+leteersAndSpace.forEach(leteer =>{
+    let empty = document.createElement("span")
+    if(leteer === ' '){
+      empty.classList.add('style-leteer') 
+    }
+
+    leteersGuse.appendChild(empty)
+})
+
+document.addEventListener("click",(e)=>{
+    if(e.target.className === 'Letter-box'){
+        e.target.classList.add("clicked")
+        
+    let theletters = e.target.innerHTML.toLowerCase()
+
+    // console.log(leteersAndSpace)
+    for(let i =0; i <leteersAndSpace.length;i++){
+        let word = leteersAndSpace[i];
+        if(theletters === word){
+
+        }
+    }
+
+    }
+})    
+
