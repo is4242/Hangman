@@ -237,6 +237,10 @@ top: 50px;
     background-color: #FDFDFD;
     border-bottom: 3px  solid #222;
     transition: .3s;
+    text-transform: lowercase; 
+}
+.letters-guess span:first-child {
+    text-transform: capitalize;
 }
  .style-leteer{
     position: relative;
