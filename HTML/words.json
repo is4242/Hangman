@@ -1,0 +1,26 @@
+{
+    "programming": [
+        "Javascript", "Java", "Python", "Rust", "Cplusplus", "PHP", "Swift", 
+        "Kotlin", "Typescript", "Go", "Ruby", "Solidity", "Assembly", "Fortran"
+    ],
+    "series": [
+        "Game of Thrones", "The Walking Dead", "Prison Break", "Breaking Bad", 
+        "Dark", "Peaky Blinders", "Stranger Things", "The Witcher", "Squid Game", 
+        "Sherlock", "The Last of Us", "Succession", "Viking"
+    ],
+    "games": [
+        "Grand Theft Auto", "Red Dead Redemption", "Minecraft", "Elden Ring", 
+        "Resident Evil", "The Legend of Zelda", "God of War", "Cyberpunk", 
+        "Fortnite", "Call of Duty", "Valorant", "Hollow Knight", "The Sims"
+    ],
+    "countries": [
+        "Saudi Arabia", "Egypt", "America", "Palestine", "Syria", "Japan", 
+        "United Kingdom", "Germany", "France", "Morocco", "Algeria", "Jordan", 
+        "Brazil", "China", "South Korea", "Turkey"
+    ],
+    "people": [
+        "Alexander", "Einstein", "Napoleon", "Newton", "Messi", "Elon Musk", 
+        "Cristiano Ronaldo", "Steve Jobs", "Bill Gates", "Leonardo da Vinci", 
+        "Marie Curie", "Muhammad Ali", "Christopher Columbus"
+    ]
+}
