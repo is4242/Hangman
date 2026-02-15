@@ -17,14 +17,7 @@ span.className='Letter-box'
 LetreesContenar.appendChild(span)
 })
 
-// object of words
-// const words = {
-//     programming: ["Javascript", "Java", "Python", "Rust", "Cplusplus", "PHP", "Swift"],
-//     series: ["Game of Thrones", "The Walking Dead", "Prison Break", "Breaking Bad", "Dark"],
-//     games: ["Grand Theft Auto", "Red Dead Redemption", "Minecraft", "Elden Ring", "Resident Evil"],
-//     countries: ["Saudi Arabia", "Egypt", "America", "Palestine", "Syria", "Japan"],
-//     people: ["Alexander", "Einstein", "Napoleon", "Newton", "Messi", "Elon Musk"]
-// }
+
 let randomvaluenames;
 
 fetch("words.json").then((respone)=>{
@@ -120,19 +113,28 @@ if (thestatus === true) {
 })  
 
 function endgame(){
-    let div = document.createElement("div")
-
+    setTimeout(() => {
+        let div = document.createElement("div")
     let textdiv = document.createTextNode(`Game Over, the word is ${randomvaluenames}`)
      div.appendChild(textdiv)
-
      div.className='popup'
-     document.body.appendChild(div)
+     document.body.appendChild(div)  
+      }, 1050);
+         setTimeout(()=>{
+location.reload()
+    },3000)
 }
 
 function winGame() {
-    let div = document.createElement("div");
+    setTimeout(() => {
+          let div = document.createElement("div");
     let textdiv = document.createTextNode(`Good your Winner:${randomvaluenames}`);
     div.appendChild(textdiv);
-    div.className = 'popup success'; // أضفنا class جديد اسمه success
-    document.body.appendChild(div);
+    div.className = 'popup success'; 
+        document.body.appendChild(div);
+    }, 1050);
+    setTimeout(()=>{
+location.reload()
+    },3000)
 }
+
